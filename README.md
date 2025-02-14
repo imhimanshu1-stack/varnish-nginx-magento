@@ -1,4 +1,4 @@
-# Magento with Varnish and HTTPS
+# Magento with Varnish and HTTPS + nginx
 
 This repository contains the necessary configuration files to set up **Varnish with HTTPS support** for a Magento installation. Since Varnish does not support SSL/TLS natively, we use **Nginx as an SSL termination proxy** to forward requests to Varnish.
 
